@@ -1,3 +1,3 @@
 # Atividade de identificação de frutas em Python
 
-<p>Aqui em breve haverá uma explicação</p>
+Para rodar o codigo você deve baixar as dependencias com `pip install -r requirements.txt`
