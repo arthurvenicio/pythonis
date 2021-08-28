@@ -60,7 +60,7 @@ while True:
 
     # Método para o software ativar a WebCam
     cv2.imshow('Webcam', image)
-    # cv2.waitKey(1)
+    cv2.waitKey(1)
 
     # Estrutura de condição para caso o número de amostras ultrapassar o valor inicial, no caso 25
     if (sample >= num_samples + 1):
@@ -69,5 +69,5 @@ while True:
 print('All faces was captured with sucess!')
 
 # Método para o software ativar a WebCam
-cam.realease()
+cam.release()
 cv2.destroyAllWindows()
