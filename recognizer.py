@@ -22,10 +22,11 @@ while True:
         
         id, confidence = recognizer.predict(imageFace)
         if id == 1:
-            nome = 'Arthur'
-        else:
-            nome = 'Karol'
-        cv2.putText(image, nome, (x,y + (h + 30)), font, 2, (0, 255, 127))
+            name = 'Arthur'
+        elif id == 2:
+            name = 'Karol'
+        cv2.putText(image, name, (x,y + (h + 30)), font, 2, (0, 255, 127))
+        cv2.putText(image, str(confidence), (x,y + (h + 50)), font, 1, (0, 255, 127))
 
 
 
