@@ -1,2 +1,5 @@
 photos/*
 
+classifierEigen.yml
+classifierFisher.yml
+classifierLBPH.yml
