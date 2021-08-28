@@ -36,6 +36,6 @@ fisher_face.write('classifierFisher.yml')
 lbph.train(faces, ids)
 lbph.write('classifierLBPH.yml')
 
-print("Training successful")
+print("Training successful.")
 
 getImageWithId()
