@@ -1,8 +1,8 @@
 import cv2
 
 detector_face = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
-recognizer = cv2.face.EigenFaceRecognizer_create()
-recognizer.read("classifierEigen.yml")
+recognizer = cv2.face.FisherFaceRecognizer_create()
+recognizer.read("classifierFisher.yml")
 width, height = 220, 220
 font = cv2.FONT_ITALIC
 
