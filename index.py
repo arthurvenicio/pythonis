@@ -1,4 +1,4 @@
-    import cv2
+import cv2
 import numpy as np
 
 # Método para o software ativar a WebCam e detectar a face

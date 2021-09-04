@@ -1,5 +1,11 @@
 photos/*
 
+yalefaces/*
+
 classifierEigen.yml
 classifierFisher.yml
 classifierLBPH.yml
+
+classifierEigenYale.yml
+classifierFisherYale.yml
+classifierLBPHYale.yml
