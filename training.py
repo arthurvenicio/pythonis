@@ -2,7 +2,8 @@ import cv2
 import os
 import numpy as np
 
-eigen_face = cv2.face.EigenFaceRecognizer_create(num_components=50, threshold=2)
+eigen_face = cv2.face.EigenFaceRecognizer_create(
+    num_components=50, threshold=2)
 fisher_face = cv2.face.FisherFaceRecognizer_create()
 lbph = cv2.face.LBPHFaceRecognizer_create()
 
